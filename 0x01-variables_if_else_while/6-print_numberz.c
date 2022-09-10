@@ -16,7 +16,7 @@ num = 0;
 
 while (num < 10)
 {
-	putchar(num);
+	putchar(long num);
 	num++;
 }
 	putchar('\n');
