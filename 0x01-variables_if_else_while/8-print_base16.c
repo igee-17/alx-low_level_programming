@@ -17,7 +17,7 @@ int main(void)
 	while (d <= '9')
 	{
 		putchar(d);
-		d++
+		d++;
 	}
 
 	for(c = 'a'; c <= 'f'; c++)
