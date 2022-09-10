@@ -23,7 +23,7 @@ int main(void)
 		{
 		}
 		else
-			putchar(alphabt);
+			putchar(alphabet);
 		alphabet++;
 	}
 	
