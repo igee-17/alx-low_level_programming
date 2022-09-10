@@ -10,7 +10,7 @@
 int main(void)
 {
 
-	int num;
+long int num;
 
 num = 0;
 
