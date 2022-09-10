@@ -10,13 +10,13 @@
 int main(void)
 {
 
-long int num;
+int num;
 
 num = 0;
 
 while (num < 10)
 {
-	putchar(long num);
+	putchar(num + '0');
 	num++;
 }
 	putchar('\n');
