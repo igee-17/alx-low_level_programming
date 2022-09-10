@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <unistead.h>
+#include <unistd.h>
+
 /**
  *main - this is where the program start running
  *Return:returns zero if error and non zero if no errors
