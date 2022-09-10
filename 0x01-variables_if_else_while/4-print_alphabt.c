@@ -16,17 +16,16 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		if(alphabet == 'e')
+		if (alphabet == 'e')
 		{
 		}
-		else if(alphabet == 'q')
+		else if (alphabet == 'q')
 		{
 		}
 		else
 			putchar(alphabet);
 		alphabet++;
 	}
-	
 	putchar('\n');
 
 	return (0);
