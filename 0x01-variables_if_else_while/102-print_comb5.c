@@ -8,39 +8,36 @@
 
 int main(void)
 {
+int i = '0';
+int j = '0';
+int k = '0';
 
-	int c, i, k, j;
+while (i <= '7')
+{
+while (j <= '8')
+{
+while (k <= '9')
+{
+if (i < j && j < k)
+{
+putchar(i);
+putchar(j);
+putchar(k);
 
-	for (c = 48; c <= 57; c++)
-	{
-		for (i = 48; i <= 57; i++)
-		{
-			for (k = 48; k <= 57; k++)
-			{
-				for (j = 48; j <= 57; j++)
-				{
-					if (((k + j) > (c + i) &&  k >= c) || c < k)
-					{
-						putchar(c);
-						putchar(i);
-						putchar(' ');
-						putchar(k);
-						putchar(j);
-
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+if (!(i == '7' && j == '8' && k == '9'))
+{
+putchar(',');
+putchar(' ');
+}
+}
+k++;
+}
+k = '0';
+j++;
+}
+j = '0';
+i++;
+}
+putchar('\n');
+return (0);
 }
