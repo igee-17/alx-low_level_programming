@@ -14,9 +14,9 @@ int main(void)
 
 num = 0;
 
-while (num<10)
+while (num < 10)
 {
-	printf("%d",num);
+	printf("%d", num);
 	num++;
 }
 	putchar('\n');
