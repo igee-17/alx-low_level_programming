@@ -7,7 +7,6 @@
  *
  * Return: On success 1.
  *
- *Return: Always 0 (Success)
  */
 
 int main(void)
