@@ -18,6 +18,7 @@ i=0;
 *putchar(i);
 *}
 */
+
 printf("Infinite loop evaded! \\o/\n");
 
 return (0);
