@@ -13,6 +13,7 @@ void print_diagsums(int *a, int size)
 	/*variables*/
 	int i;
 	int sum1, sum2;
+
 	sum1 = 0;
 	sum2 = 0;
 	i = 0;
