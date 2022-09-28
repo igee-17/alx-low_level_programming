@@ -3,8 +3,9 @@
 
 /**
  * print_diagsums - prints sums
- * @a: This a pointer
- * @size: size
+ * @a: 2d array of chars
+ * @size: number matrix
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
