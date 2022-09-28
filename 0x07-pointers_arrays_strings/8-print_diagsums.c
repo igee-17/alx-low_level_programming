@@ -16,7 +16,8 @@ void print_diagsums(int *a, int size)
 	sum1 = 0;
 	sum2 = 0;
 	i = 0;
-	while (i < size) /*repeat numbers*/
+	while (i < size)
+	/*repeat numbers*/
 	{
 		/*sums of diagsums*/
 		sum1 = sum1 + *(a + i * size + i);
