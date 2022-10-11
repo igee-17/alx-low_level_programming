@@ -7,7 +7,7 @@
  * @age: age of the dog
  * @owner: owner of the dog
  *
- * Description: struct called "dog" that stores its name, its age
+ * Description: struct called that stores its name, its age
  */
 struct dog
 {
@@ -15,6 +15,7 @@ struct dog
 	float age;
 	char *owner;
 }
+
 /**
  * dog_t - typedef for struct dog
  */
